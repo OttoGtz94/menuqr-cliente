@@ -1,0 +1,80 @@
+.seccionMenu {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	// background-color: red;
+	margin-top: 20px;
+	padding-bottom: 20px;
+	border-bottom: 3px dotted #fff;
+	h2 {
+		width: 100%;
+	}
+	.listaCarta {
+		// background-color: blue;
+		width: 50%;
+		.elementoCarta {
+			// background-color: red;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			p {
+				// font-size: 10px;
+				font-size: 20px;
+				margin-top: 20px;
+			}
+			.nombre {
+				width: 70%;
+				cursor: pointer;
+			}
+			.precio {
+				width: 30%;
+			}
+		}
+	}
+	.extra {
+		width: 50%;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		img {
+			width: 80%;
+		}
+		.sobreElemento {
+			// background-color: aqua;
+			padding: 10px;
+			.nombreElemento {
+				// font-size: 50px;
+				// color: #fff;
+				text-transform: uppercase;
+				font-size: 15px;
+				font-weight: 400;
+				margin-bottom: 10px;
+				text-align: center;
+			}
+			h3 {
+				text-transform: uppercase;
+				font-size: 20px;
+				font-weight: 300;
+				margin-bottom: 10px;
+			}
+			ul {
+				margin-bottom: 10px;
+				li {
+					list-style: none;
+					font-size: 15px;
+					font-style: italic;
+					font-weight: 300;
+					text-transform: lowercase;
+				}
+			}
+			.descripcion {
+				font-size: 14px;
+			}
+			span {
+				font-size: 15px;
+				font-weight: 900;
+			}
+		}
+	}
+}

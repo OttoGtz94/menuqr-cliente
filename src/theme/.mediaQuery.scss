@@ -1,0 +1,41 @@
+@media screen and (max-width: 800px) {
+	.menu {
+		.seccionMenu {
+			.listaCarta {
+				width: 100%;
+			}
+			.extra {
+				width: 100%;
+				margin-top: 20px;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 550px) {
+	.menu {
+		.seccionMenu {
+			.listaCarta {
+				.elementoCarta {
+					p {
+						font-size: 15px;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.menu {
+		.seccionMenu {
+			.listaCarta {
+				.elementoCarta {
+					p {
+						font-size: 13px;
+					}
+				}
+			}
+		}
+	}
+}

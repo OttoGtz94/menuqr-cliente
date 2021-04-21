@@ -1,0 +1,19 @@
+.menu {
+	background-color: #dbd5af;
+	width: 80%;
+	margin: auto;
+	padding: 0px 10px;
+	h1 {
+		color: $colorTitulo;
+		text-align: center;
+		border-bottom: 1px solid #fff;
+		margin-bottom: 10px;
+	}
+	.instruccion {
+		font-size: 15px;
+		font-style: italic;
+		font-weight: 300;
+	}
+	@import './.seccionMenu';
+	@import './.promos';
+}

@@ -1,0 +1,42 @@
+.promos {
+	padding-bottom: 20px;
+	h2 {
+		margin-bottom: 10px;
+	}
+	.promo {
+		// background-color: red;
+		width: 40%;
+		padding: 10px;
+		border: 2px solid #fff;
+		position: relative;
+		h2 {
+			font-size: 30px;
+			text-transform: uppercase;
+			font-weight: 900;
+			color: #fff;
+		}
+		.precio {
+			font-size: 25px;
+			font-weight: 800;
+			// position: absolute;
+			// top: 45px;
+			// right: 10px;
+			color: rgb(92, 6, 6);
+			text-align: right;
+		}
+		.elementosPromo {
+			// background-color: #fff;
+
+			h4 {
+				color: rgb(65, 65, 58);
+				font-size: 20px;
+			}
+			h3 {
+				color: rgb(21, 42, 43);
+				font-size: 30px;
+				font-weight: 900;
+				text-align: center;
+			}
+		}
+	}
+}

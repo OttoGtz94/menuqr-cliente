@@ -1,0 +1,28 @@
+$fuente: 'Lato', sans-serif;
+$colorTitulo: #4c3e2c;
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body {
+	background: #d1913c; /* fallback for old browsers */
+	background: -webkit-linear-gradient(
+		to right,
+		#ffd194,
+		#d1913c
+	); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(
+		to right,
+		#ffd194,
+		#d1913c
+	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	font-family: $fuente;
+	color: #584202;
+}
+
+@import './.home';
+@import './.menu';
+@import './.mediaQuery';
+@import './.error';
